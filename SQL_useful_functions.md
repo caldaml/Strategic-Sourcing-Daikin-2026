@@ -1,0 +1,49 @@
+# **SQL Useful Functions**
+
+>[!IMPORTANT]
+> This documentation is for more complicated SQL querying tasks which would other wise be done in excel or power query.
+> This will include the syntax along with the logic behind it.
+
+
+## XLOOKUP
+
+Create a new table based on `data1` but adding ssm by referencing `xl_ref` with the consistent variable of `supplier`
+
+```sql
+SELECT data1.spend, data1.supplier, xl_ref.ssm -- what we are querying (we want to add ssm a table with data 1 categories)
+FROM data1
+LEFT JOIN xl_ref -- similar with python, the left join is the standard for xlookup extensions
+    ON data1.supplier = xl_ref.supplier -- this is the common key among the 2 tables
+```
+
+## Currency Adjustment
+
+Update `ext_ag` by adjusting the currency columns to match the USD exchange rate
+
+```sql
+UPDATE ext_ag
+SET
+    "Unit Price" = "Unit Price" * .0063,
+    "Total Price" = "Total Price" * .0063,
+    "Ext. Price" = "Ext. Price" * .0063,
+    "Std. Cost" = "Std. Cost" * .0063,
+    "Ext. PPV" = "Ext. PPV" * .0063
+WHERE Currency ='JPY';
+-- This is a past task I did where I had to adjust currency columns such that they would turn yen to USD. (.0063 was the exchange rate at this poing)
+```
+
+## Duplicate Reduction
+
+Keep only one row per `org_id` + `year` combination, removing any duplicates.
+
+```sql
+DELETE FROM PART1_COMBINED
+WHERE ROWID NOT IN (
+    SELECT MIN(ROWID)
+    FROM PART1_COMBINED
+    GROUP BY org_id, year
+);
+```
+
+
+
