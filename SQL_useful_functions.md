@@ -44,6 +44,21 @@ WHERE ROWID NOT IN (
     GROUP BY org_id, year
 );
 ```
+>[!TIP]
+> The task for a single variable duplicate reduction is much easier. Just do a GROUP BY function
 
 
+## Dealing With Number Stored As Text
+
+Query `revenue` based on an equivalent argument while the number is stored as text
+
+```sql
+SELECT *
+FROM pro_publica
+WHERE CAST(revenue AS DOUBLE) > 20000000
+```
+
+>[!TIP]
+> Cast(... AS DOUBLE) or FLOAT / REAL depending on the dialect, explicitly converts a value from one data type into a double-precision floating-point number.
+> This is useful when you need numeric operations or correct ordering on values stored as text or other types.
 
