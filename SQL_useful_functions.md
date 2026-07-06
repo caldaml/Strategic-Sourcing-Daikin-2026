@@ -75,5 +75,5 @@ WHERE domain NOT IN (
     FROM table_3600
 )
 ```
-
+> [!NOTE]
 > This should return the 510 domains which are missing in table 3600
