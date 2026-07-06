@@ -29,7 +29,8 @@ SET
     "Std. Cost" = "Std. Cost" * .0063,
     "Ext. PPV" = "Ext. PPV" * .0063
 WHERE Currency ='JPY';
--- This is a past task I did where I had to adjust currency columns such that they would turn yen to USD. (.0063 was the exchange rate at this poing)
+-- This is a past task I did where I had to adjust currency columns such that they would turn yen to USD.
+--  (.0063 was the exchange rate at this point in time)
 ```
 
 ## Duplicate Reduction
