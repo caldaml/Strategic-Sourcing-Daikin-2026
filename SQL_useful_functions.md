@@ -69,7 +69,7 @@ Select `domain` if it doesn't exist in the seperate table
 
 ```sql
 SELECT domain
-FROM table_4110
+FROM table_4110 -- the number denotes the amount of domains in each table
 WHERE domain NOT IN (
     SELECT domain
     FROM table_3600
