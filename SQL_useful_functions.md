@@ -62,3 +62,18 @@ WHERE CAST(revenue AS DOUBLE) > 20000000
 > Cast(... AS DOUBLE) or FLOAT / REAL depending on the dialect, explicitly converts a value from one data type into a double-precision floating-point number.
 > This is useful when you need numeric operations or correct ordering on values stored as text or other types.
 
+
+## Select Exclusive
+
+Select `domain` if it doesn't exist in the seperate table
+
+```sql
+SELECT domain
+FROM table_4110
+WHERE domain NOT IN (
+    SELECT domain
+    FROM table_3600
+)
+```
+
+> This should return the 510 domains which are missing in table 3600
