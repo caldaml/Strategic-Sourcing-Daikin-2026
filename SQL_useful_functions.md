@@ -78,3 +78,25 @@ WHERE domain NOT IN (
 ```
 > [!NOTE]
 > This should return the 510 domains which are missing in table 3600
+
+
+## SELECT Top or Bottom
+
+SELECT * of the top ten spend items
+
+```SQL
+SELECT *
+FROM table
+ORDER BY "Spend" DESC -- Denotes from high to low
+LIMIT 10; -- Needed as it would order the entire table. Use TOP function for different dialects.
+```
+
+SELECT * of the bottom ten spend items\
+
+```SQL
+SELECT *
+FROM table
+ORDER BY "Spend" ASC -- Denotes low to high
+LIMIT 10;
+```
+
