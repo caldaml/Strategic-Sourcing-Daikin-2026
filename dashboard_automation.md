@@ -96,23 +96,39 @@ def union_paths(po_spend_files, po_otd_files, po_dpmo_files, xlook_ref_file):
 
     return merged_spend, merged_otd, merged_dpmo
 
-po_spend_files = [r"PO Spend - Jun.csv",
-                  r"PO Spend - May.csv",
-                  r"PO Spend - Apr.csv"
+
+
+def otd_task(merged_otd):
+    total = len(merged_otd)
+
+    if total == 0:
+        return 0.0
+    
+    otd_count = merged_otd[
+        merged_otd["Delivery Result"].isin(["On-Time", "Early"])
+    ].shape[0]
+    
+    return otd_count / total
+
+
+
+po_spend_files = [r"C:\Users\null\PO Spend - Jun.csv",
+                  r"C:\Users\null\PO Spend - May.csv",
+                  r"C:\Users\null\PO Spend - Apr.csv"
                   ]
 
-po_otd_files =  [r"PO OTD - Jun.csv",
-                    r"PO OTD - May.csv",
-                    r"PO OTD - Apr.csv"
+po_otd_files = [r"C:\Users\null\PO OTD - Jun.csv",
+                    r"C:\Users\null\PO OTD - May.csv",
+                    r"C:\Users\null\PO OTD - Apr.csv"
                     ]
 
-po_dpmo_files = [r"PO PPM - Jun.csv",
-                    r"PO PPM - May.csv",
-                    r"PO PPM - Apr.csv"
+po_dpmo_files = [r"C:\Users\null\PO PPM - Jun.csv",
+                    r"C:\Users\null\PO PPM - May.csv",
+                    r"C:\Users\null\PO PPM - Apr.csv"
                     ]
 
     
-xlook_ref_file = r"C:\Users\DamlC\Downloads\CalDAA\PQ_dash\xlook_ref.csv"
+xlook_ref_file = r"C:\Users\null\xlook_ref.csv"
 
 
 
