@@ -91,7 +91,7 @@ ORDER BY "Spend" DESC -- Denotes from high to low
 LIMIT 10; -- Needed as it would order the entire table. Use TOP function for different dialects.
 ```
 
-SELECT * of the bottom ten spend items\
+SELECT * of the bottom ten spend items
 
 ```SQL
 SELECT *
