@@ -2,7 +2,7 @@
 
 >[!IMPORTANT]
 > This documentation is for more complicated SQL querying tasks which would other wise be done in excel or power query.
-> This will include the syntax along with the logic behind it.
+> This will include the syntax along with the logic behind it. (Note this is typically done within a database IDE, so if you don't have one set up, I would suggest Data Grip from Jet Brains, or DBeaver)
 
 
 ## XLOOKUP
