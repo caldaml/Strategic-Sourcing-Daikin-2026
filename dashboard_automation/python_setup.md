@@ -13,7 +13,7 @@ We first go to this website :point_right: https://www.python.org/downloads/
 
 As seen in the red highlighted area, we want to pick our respective OS. (E.g. macOS, Windows, etc.)
 
-![alt text](<Screenshot 2026-06-02 140215-1.png>)
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/624446a562cde10a42d29b987e1c943a539eb570/screenshots/Screenshot%202026-06-02%20140215.png)
 
 In this example we picked windows. We always want to pick the 64-bit. And just to play it safe, we should download a past release such that we don't run into any issues. (as seen python 3.13.13)
 
