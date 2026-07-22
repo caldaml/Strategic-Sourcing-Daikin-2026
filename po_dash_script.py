@@ -51,7 +51,6 @@ def otd_task(merged_otd):
     return otd_count / total
 
 
-
 po_spend_files = [r"C:\Users\null\PO Spend - Jun.csv",
                   r"C:\Users\null\PO Spend - May.csv",
                   r"C:\Users\null\PO Spend - Apr.csv"
@@ -74,6 +73,19 @@ xlook_ref_file = r"C:\Users\null\xlook_ref.csv"
 
 merged_df, merged_otd, merged_dpmo = union_paths(po_spend_files, po_otd_files, po_dpmo_files, xlook_ref_file)
 
+def otd_task2(merged_otd):
+    print("function is running")
+    merged_otd["OTD"] = (
+        merged_otd["Delivery Result"]
+        .isin(["Early", "On-Time"])
+        .astype(int)
+    )
+
+    return merged_otd
+
+merged_otd = otd_task2(merged_otd)
+
 
 merged_df, merged_otd, merged_dpmo
+
 
