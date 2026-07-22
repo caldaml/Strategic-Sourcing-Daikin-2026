@@ -9,7 +9,7 @@
 
 We first go to this website :point_right: https://www.python.org/downloads/
 
-![alt text](<Screenshot 2026-06-02 135952-1.png>)
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/60f3662716c7f87ccb70e6f4b99ca6c5a55f0b81/Screenshot%202026-06-02%20135952.png)
 
 As seen in the red highlighted area, we want to pick our respective OS. (E.g. macOS, Windows, etc.)
 
