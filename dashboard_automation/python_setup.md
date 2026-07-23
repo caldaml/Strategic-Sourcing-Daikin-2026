@@ -37,7 +37,7 @@ If it shows a version we are good.
 
 > (note) Any operating system should have some shell program. This is the point in which we can download extensions or packages for python. For macOS this may be bash, and for windows this is "command prompt". For windows, just search this in the little windows search bar.
 
-![alt text](<Screenshot 2026-06-03 090755-1.png>)
+![alt text](<Screenshot 2026-06-03 090755-1.png)
 
 Since we added python to path in step 1, we don't need to change the directory.
 
@@ -51,7 +51,7 @@ Type the following and press enter. That is literally it.
 
 > (note) You can copy paste the code for this step, however make sure you change the file paths such that they match with your own device.
 
-![alt text](<Screenshot 2026-06-02 142701-1.png>)
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/81ed31dd301be6f87e8769cf853786ea4f73818a/screenshots/Screenshot%202026-06-02%20142701-1.png)
 
 As seen in the picture above, in "Get Data", go more, and we search python and select python scripting.
 
