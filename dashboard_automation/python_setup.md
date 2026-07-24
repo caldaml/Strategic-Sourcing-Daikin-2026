@@ -148,6 +148,6 @@ Paste the above code in the scripting area. Make sure you put in the correct fil
 
 Now all you have to do is select and load the merged tables as your data. 
 
-![alt text](<Screenshot 2026-06-04 101419-1.png>)
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/65e2a09479ab332ba831f97c02cf365281f67e7a/screenshots/Screenshot%202026-06-04%20101419.png)
 
 And you're done :thumbsup:
