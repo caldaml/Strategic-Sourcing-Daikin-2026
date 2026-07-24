@@ -1,5 +1,7 @@
 # Complete Dashboard Automation Guide
-> (note) Before starting, the process laid out is entirely skipping an dataset manipulation via excel be it even power query. However, there are some needed extensions to streamline the process. 
+
+>[!NOTE]
+>Before starting, the process laid out is entirely skipping an dataset manipulation via excel be it even power query. However, there are some needed extensions to streamline the process. 
 
 
 
@@ -142,7 +144,7 @@ merged_df, merged_otd, merged_dpmo
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/3334be90870f6121fd3a49ecb2fd07f7fcd10d1a/screenshots/Screenshot%202026-06-03%20090151-1.png)
 
 
-Paste the above code in the scripting area. Make sure you put in the correct file paths for the po data (the po jun, may, apr are just place holders) and xlookup_ref. Remember to add new monthly data into the assignment.
+Paste code in the scripting area. The code provided above is if you are updating the PO detail dashboards. Make sure you put in the correct file paths for your data. Also, remember to add new monthly data into the script if you are updating something.
 
 
 > (note) Know that the only varying part of this loop is the file paths. Just copy the path in your files and paste in the respective location.
