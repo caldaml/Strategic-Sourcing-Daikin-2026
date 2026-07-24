@@ -34,8 +34,8 @@ python --version
 If it shows a version we are good.
 
 ## **Step 2: Download Dependency**
-
-> (note) Any operating system should have some shell program. This is the point in which we can download extensions or packages for python. For macOS this may be bash, and for windows this is "command prompt". For windows, just search this in the little windows search bar.
+>[!NOTE]
+>Any operating system should have some shell program. This is the point in which we can download extensions or packages for python. For macOS this may be bash, and for windows this is "command prompt". For windows, just search this in the little windows search bar.
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/85fa393eebcec7bd5d67fc92bf0fa039fbf4db2d/screenshots/Screenshot%202026-07-24%20081858.png)
 
