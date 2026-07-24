@@ -49,7 +49,8 @@ Type the following and press enter. That is literally it.
 
 ## **Step 3: Getting the Data in PBI**
 
-> (note) You can copy paste the code for this step, however make sure you change the file paths such that they match with your own device.
+>[!NOTE]
+>You can copy paste the code for this step, however make sure you change the file paths such that they match with your own device.
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/81ed31dd301be6f87e8769cf853786ea4f73818a/screenshots/Screenshot%202026-06-02%20142701-1.png)
 
