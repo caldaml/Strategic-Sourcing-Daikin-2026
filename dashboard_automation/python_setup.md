@@ -138,7 +138,7 @@ merged_df, merged_otd, merged_dpmo = union_paths(po_spend_files, po_otd_files, p
 merged_df, merged_otd, merged_dpmo
 ```
 
-![alt text](<Screenshot 2026-06-03 090151-2.png>)
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/3334be90870f6121fd3a49ecb2fd07f7fcd10d1a/screenshots/Screenshot%202026-06-03%20090151-1.png)
 
 
 Paste the above code in the scripting area. Make sure you put in the correct file paths for the po data (the po jun, may, apr are just place holders) and xlookup_ref. Remember to add new monthly data into the assignment.
