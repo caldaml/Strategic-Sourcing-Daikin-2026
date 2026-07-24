@@ -1,13 +1,14 @@
 # Complete Dashboard Automation Guide
 
->[!NOTE]
+>[!IMPORTANT]
 >Before starting, the process laid out is entirely skipping an dataset manipulation via excel be it even power query. However, there are some needed extensions to streamline the process. 
 
 
 
 ## **Step 1: Download Python**
 
-> (note) Don't be intimidated by the fact we will be utilizing python for the process. There won't be any coding involved besides the parsing which will be highly simplified by this markdown. The most complicated step in the process is actually downloading python and setting the dependencies.
+>[!NOTE]
+>Don't be intimidated by the fact we will be utilizing python for the process. There won't be any coding involved besides the parsing which will be highly simplified by this markdown. The most complicated step in the process is actually downloading python and setting the dependencies. If you would like to develop your own script, I included guides for common functions. If you would like to do this, do know that you need an IDE. I would recommend Visual Studio Code.
 
 We first go to this website :point_right: https://www.python.org/downloads/
 
