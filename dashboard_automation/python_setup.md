@@ -37,7 +37,7 @@ If it shows a version we are good.
 
 > (note) Any operating system should have some shell program. This is the point in which we can download extensions or packages for python. For macOS this may be bash, and for windows this is "command prompt". For windows, just search this in the little windows search bar.
 
-![alt text](<Screenshot 2026-06-03 090755-1.png)
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/85fa393eebcec7bd5d67fc92bf0fa039fbf4db2d/screenshots/Screenshot%202026-07-24%20081858.png)
 
 Since we added python to path in step 1, we don't need to change the directory.
 
