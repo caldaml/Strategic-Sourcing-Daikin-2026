@@ -158,8 +158,8 @@ merged_df, merged_otd, merged_dpmo
 
 Paste code in the scripting area. The code provided above is if you are updating the PO detail dashboards. Make sure you put in the correct file paths for your data. Also, remember to add new monthly data into the script if you are updating something.
 
-
-> (note) Know that the only varying part of this loop is the file paths. Just copy the path in your files and paste in the respective location.
+>[!NOTE]
+>Know that the only varying part of this loop is the file paths. Just copy the path in your files and paste in the respective location.
 
 Now all you have to do is select and load the merged tables as your data. 
 
