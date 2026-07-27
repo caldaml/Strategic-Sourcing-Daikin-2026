@@ -18,6 +18,9 @@
 ## **STEP 1**
 
 
+We first go to this website :point_right: https://git-scm.com/install/windows
+
+
 >[!NOTE]
 >Our first step is to download git. Reminder that you NEED to download the respective OS download. (Your computer is most likely windows). Select the 64 bit downloader as seen in the image below.
 
