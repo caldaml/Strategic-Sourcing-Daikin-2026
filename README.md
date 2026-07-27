@@ -41,5 +41,10 @@ Copy the address of the new folder, and change the directory of the terminal to 
 cd "C:\Users\DamlC\Downloads\CalDAA\git_hub_repo"
 ```
 
+>{!TIP]
+>Should look like the following
+
+
+
 
 
