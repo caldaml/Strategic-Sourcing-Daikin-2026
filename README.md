@@ -44,7 +44,7 @@ cd "C:\Users\DamlC\Downloads\CalDAA\git_hub_repo"
 >{!TIP]
 >Should look like the following
 
-
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/bb119188f679840fb2094cd848d9ee8d0369a694/screenshots/Screenshot%202026-07-27%20142021.png)
 
 
 
