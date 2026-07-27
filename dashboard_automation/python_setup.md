@@ -23,7 +23,7 @@ In this example we picked windows. We always want to pick the 64-bit. And just t
 Run the installer and a little pop up should show up. 
 
 **Extremely Important** 
->[!IMPORTANT]
+>[!WARNING]
 :warning: We must make sure to click the "Add Python to Path" box. Failing to do so will likely place python in an obscure specific location on your device which leads to a lot complications later on.
 
 Once this is checked, we can Install Now
