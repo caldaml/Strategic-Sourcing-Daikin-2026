@@ -23,7 +23,7 @@ In this example we picked windows. We always want to pick the 64-bit. And just t
 Run the installer and a little pop up should show up. 
 
 **Extremely Important** 
-
+>[!IMPORTANT]
 :warning: We must make sure to click the "Add Python to Path" box. Failing to do so will likely place python in an obscure specific location on your device which leads to a lot complications later on.
 
 Once this is checked, we can Install Now
@@ -115,7 +115,6 @@ def otd_task(merged_otd):
     return otd_count / total
 
 
-
 po_spend_files = [r"C:\Users\null\PO Spend - Jun.csv",
                   r"C:\Users\null\PO Spend - May.csv",
                   r"C:\Users\null\PO Spend - Apr.csv"
@@ -137,6 +136,18 @@ xlook_ref_file = r"C:\Users\null\xlook_ref.csv"
 
 
 merged_df, merged_otd, merged_dpmo = union_paths(po_spend_files, po_otd_files, po_dpmo_files, xlook_ref_file)
+
+def otd_task2(merged_otd):
+    print("function is running")
+    merged_otd["OTD"] = (
+        merged_otd["Delivery Result"]
+        .isin(["Early", "On-Time"])
+        .astype(int)
+    )
+
+    return merged_otd
+
+merged_otd = otd_task2(merged_otd)
 
 
 merged_df, merged_otd, merged_dpmo
