@@ -26,3 +26,20 @@ We first go to this website :point_right: https://git-scm.com/install/windows
 
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/f9d01ff7cf7d524a3609f6dbbe0ba5a62eb72219/screenshots/Screenshot%202026-07-27%20115940.png)
+
+
+
+## **STEP 2**
+
+
+>[!IMPORTANT]
+>Now that git is downloaded, we need to create a folder to house the repository.
+
+Copy the address of the new folder, and change the directory of the terminal to the folder
+
+```bash
+cd "C:\Users\DamlC\Downloads\CalDAA\git_hub_repo"
+```
+
+
+
