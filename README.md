@@ -35,7 +35,7 @@ We first go to this website :point_right: https://git-scm.com/install/windows
 >[!IMPORTANT]
 >Now that git is downloaded, we need to create a folder to house the repository.
 
-Copy the address of the new folder, and change the directory of the terminal to the folder
+Copy the address of the new folder, and change the directory in the shell to the new folder
 
 ```bash
 cd "C:\Users\DamlC\Downloads\CalDAA\git_hub_repo"
@@ -49,7 +49,7 @@ cd "C:\Users\DamlC\Downloads\CalDAA\git_hub_repo"
 
 ## **STEP 3**
 
-With the terminal in the correct directory, we now need to copy the repository path. In github (in the specific repo), click code -> copy http.
+With the shell in the correct directory, we now need to copy the repository path. In github (in the specific repo), click code -> copy http.
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/2988f98d8b3c256884ba4969e09925b2171119e6/screenshots/Screenshot%202026-07-27%20142347.png)
 
