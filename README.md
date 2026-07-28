@@ -47,4 +47,11 @@ cd "C:\Users\DamlC\Downloads\CalDAA\git_hub_repo"
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/bb119188f679840fb2094cd848d9ee8d0369a694/screenshots/Screenshot%202026-07-27%20142021.png)
 
 
+## **STEP 3**
+
+With the terminal in the correct directory, we now need to copy the repository path. In github (in the specific repo), click code -> copy http.
+
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/2988f98d8b3c256884ba4969e09925b2171119e6/screenshots/Screenshot%202026-07-27%20142347.png)
+
+
 
