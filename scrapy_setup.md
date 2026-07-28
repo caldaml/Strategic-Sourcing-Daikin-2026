@@ -12,9 +12,17 @@ The first step to setting up any sort of program is downloading ore verifying th
 pip install scrapy csv
 ```
 
+Put this at the top of your script
+
+```python
+import scrapy
+import csv
+```
+
+
 ## **STEP 2**
 
-Our next step before operating is to setting up our script
+Our next step before operating is to setting up our actual script
 
 >[!IMPORTANT]
 >The script is setup to only source pdfs which contain one of the strings listed. e.g.
@@ -43,8 +51,7 @@ FOLLOW_KEYWORDS = [
 
 Make sure that the words you want are stored as a strings like as seen above.
 
-
-Once the words are 
+You can also to crawl everything in which you would use this alternative script. I'll denote if its the alt script by noting `# alt`
 
 
 
