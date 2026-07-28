@@ -53,5 +53,13 @@ With the shell in the correct directory, we now need to copy the repository path
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/2988f98d8b3c256884ba4969e09925b2171119e6/screenshots/Screenshot%202026-07-27%20142347.png)
 
+With this copied, we can now git clone. In the shell, type the following command
+
+```bash
+git clone "https_of_repo"
+```
+
+Or as seen in this example
+
 
 
