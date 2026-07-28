@@ -61,5 +61,5 @@ git clone "https_of_repo"
 
 Or as seen in this example
 
-
+![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/8a3676a92bde1116b963af3f3070f38cd1e3cc7b/screenshots/Screenshot%202026-07-28%20081940.png)
 
