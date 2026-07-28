@@ -56,10 +56,10 @@ With the shell in the correct directory, we now need to copy the repository path
 With this copied, we can now git clone. In the shell, type the following command
 
 ```bash
-git clone "https_of_repo"
+git clone "https://github.com/caldaml/Strategic-Sourcing-Daikin-2026.git"
 ```
 
-Or as seen in this example
+Or as seen in the command prompt
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/8a3676a92bde1116b963af3f3070f38cd1e3cc7b/screenshots/Screenshot%202026-07-28%20081940.png)
 
