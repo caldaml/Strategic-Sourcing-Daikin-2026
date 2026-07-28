@@ -22,7 +22,7 @@ We first go to this website :point_right: https://git-scm.com/install/windows
 
 
 >[!NOTE]
->Our first step is to download git. Reminder that you NEED to download the respective OS download. (Your computer is most likely windows). Select the 64 bit downloader as seen in the image below.
+>Our first step is to download git. Reminder that you NEED to download the respective operating system download. (Your computer is most likely windows). Select the 64 bit downloader as seen in the image below.
 
 
 ![image alt](https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/blob/f9d01ff7cf7d524a3609f6dbbe0ba5a62eb72219/screenshots/Screenshot%202026-07-27%20115940.png)
