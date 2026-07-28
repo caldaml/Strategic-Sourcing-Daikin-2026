@@ -51,8 +51,29 @@ FOLLOW_KEYWORDS = [
 
 Make sure that the words you want are stored as a strings like as seen above.
 
-You can also to crawl everything in which you would use this alternative script. I'll denote if its the alt script by noting `# alt`
+>[!TIP]
+>You can also to crawl everything in which you would use this alternative script. I'll denote if its the alt script by noting `# alt`
 
+Add this below the key word denotion
+
+```python
+# csv referece -> single column being referenced (i.e. domain)
+# this acts as both the starting url and the allowed domain
+def load_domains(csv_path="domaintt.csv"):
+    entries = []
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            domain = row["domain"].strip()
+            clean_domain = domain.replace("https://", "").replace("http://", "").rstrip("/")
+            start_url = domain if domain.startswith("http") else f"https://{clean_domain}"
+            entries.append({"domain": clean_domain, "start_url": start_url})
+    return entries
+
+ENTRIES = load_domains("domaintt.csv")
+```
+
+As stated in the note, the 
 
 
 
