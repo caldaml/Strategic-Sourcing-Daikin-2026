@@ -73,7 +73,17 @@ def load_domains(csv_path="domaintt.csv"):
 ENTRIES = load_domains("domaintt.csv")
 ```
 
-As stated in the note, the 
+As stated in the note, the domaintt.csv has a data structure like the following
+
+```csv
+domain
+row1.org
+row2.org
+row3.org
+rown.org
+```
+
+
 
 
 
