@@ -3,6 +3,10 @@
 
 ## **STEP 1**
 
+>[!NOTE]
+>
+
+
 The first step to setting up any sort of program is downloading ore verifying that you have the correct packages installed.
 
 >[!NOTE]
