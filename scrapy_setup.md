@@ -57,6 +57,7 @@ Make sure that the words you want are stored as a strings like as seen above.
 Add this below the key word denotion
 
 ```python
+# alt
 # csv referece -> single column being referenced (i.e. domain)
 # this acts as both the starting url and the allowed domain
 def load_domains(csv_path="domaintt.csv"):
