@@ -54,7 +54,7 @@ Make sure that the words you want are stored as a strings like as seen above.
 >[!TIP]
 >You can also to crawl everything in which you would use this alternative script. All you need to do is omit the key words and paste the next loop.
 
-Add this below the key word denotation if there is one, otherwise just put it right under the package import
+Add this below the key word denotation if there is one. Otherwise just put it right under the package import
 
 ```python
 # csv referece -> single column being referenced (i.e. domain)
@@ -73,7 +73,7 @@ def load_domains(csv_path="domaintt.csv"):
 ENTRIES = load_domains("domaintt.csv")
 ```
 
-As stated in the note, the domaintt.csv has a data structure like the following
+As stated in the note, the `domaintt.csv` has a data structure like the following
 
 ```csv
 domain
@@ -84,7 +84,7 @@ rown.org
 ```
 
 >[!IMPORTANT]
->The data NEEDS to be in a csv delimited file as is parsed as such
+>The data NEEDS to be in a csv delimited file as it is parsed as such
 
 
 
