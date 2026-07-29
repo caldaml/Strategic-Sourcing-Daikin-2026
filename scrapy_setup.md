@@ -152,7 +152,7 @@ All this loop is doing is parsing the response as it gives the data back in JSON
 
 ## **STEP 3**
 
-All there is left to do is run the script. In powershell, put the following (in the example below, the python file is name supplier spider.
+All there is left to do is run the script. In powershell, put the following. (in the example below, the python file is name supplier spider)
 
 ```bash
 scrapy runspider supplier_spider.py
