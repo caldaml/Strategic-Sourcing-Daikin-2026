@@ -83,6 +83,8 @@ row3.org
 rown.org
 ```
 
+>[!IMPORTANT]
+>The data NEEDS to be in a csv delimited file as is parsed as such
 
 
 
