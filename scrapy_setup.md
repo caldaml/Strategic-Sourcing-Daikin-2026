@@ -52,12 +52,11 @@ FOLLOW_KEYWORDS = [
 Make sure that the words you want are stored as a strings like as seen above.
 
 >[!TIP]
->You can also to crawl everything in which you would use this alternative script. I'll denote if its the alt script by noting `# alt`
+>You can also to crawl everything in which you would use this alternative script. All you need to do is omit the key words and paste the next loop.
 
-Add this below the key word denotion
+Add this below the key word denotation if there is one, otherwise just put it right under the package import
 
 ```python
-# alt
 # csv referece -> single column being referenced (i.e. domain)
 # this acts as both the starting url and the allowed domain
 def load_domains(csv_path="domaintt.csv"):
