@@ -4,7 +4,7 @@
 ## **STEP 1**
 
 >[!NOTE]
->
+>You need an IDE to setup and run the script. I would recommend using visual studio code as it is free and easy to setup. If you are a current student, jet brains IDEs are free, so PyCharm might be your best bet.
 
 
 The first step to setting up any sort of program is downloading ore verifying that you have the correct packages installed.
