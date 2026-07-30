@@ -128,7 +128,7 @@ class MultiDomainSpider(scrapy.Spider):
 >[!NOTE]
 >The above code is used if you choose to include the keywords. Note you also need to specify the output csv name. (as seen in the script "output_supplier.csv")
 >Also, you have the option to customize the depth limit. This is essentially how deep the spider will look.
->e.g. https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/edit/main/scrapy_setup.md this domain has a depth of 6 starting from the base domain.
+>e.g. https://github.com/caldaml/Strategic-Sourcing-Daikin-2026/edit/main/scrapy_setup.md this domain has a depth of 5 starting from the base domain.
 
 If you didn't include the keywords choose the code below
 
