@@ -3,7 +3,8 @@
 > Includes python scripts (for data mining and automating tasks) and SQL syntax with example querying.
 
 
-
+>{!NOTE]
+>All of the csvs used for these scripts are found in the Strategic Sourcing Staff Supply Chain -> Interns -> Csvs
 
 
 
