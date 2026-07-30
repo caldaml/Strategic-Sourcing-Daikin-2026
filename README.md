@@ -4,7 +4,7 @@
 
 
 >[!NOTE]
->All of the csvs used for these scripts are found in the Strategic Sourcing Staff Supply Chain -> Interns -> csv
+>All of the csvs used for the scripts in this repository are found in the Strategic Sourcing Staff Supply Chain -> Interns -> csv
 
 
 
