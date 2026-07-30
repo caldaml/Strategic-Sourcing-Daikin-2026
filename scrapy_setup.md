@@ -3,7 +3,7 @@
 
 ## **STEP 1**
 
->[!NOTE]
+>[!IMPORTANT]
 >You need an IDE to setup and run the script. I would recommend using visual studio code as it is free and easy to setup. If you are a current student, jet brains IDEs are free, so PyCharm might be your best bet.
 
 
